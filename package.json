@@ -1,0 +1,40 @@
+{
+  "name": "github-realtime-webhook",
+  "version": "0.1.0",
+  "description": "This application is used as webhook-callback from Github on the one side and as WebSocket-realtime resource on the other side.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "grunt default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrShoenel/github-realtime-webhook.git"
+  },
+  "keywords": [
+    "github",
+    "realtime",
+    "websocket",
+    "heroku"
+  ],
+  "author": "Sebastian Hönel <development@hoenel.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrShoenel/github-realtime-webhook/issues"
+  },
+  "homepage": "https://github.com/MrShoenel/github-realtime-webhook#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-ts": "^5.2.0",
+    "tsd": "^0.6.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "express-ws": "^0.2.6",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-ts": "^5.2.0",
+    "matchdep": "^1.0.0"
+  }
+}
