@@ -14,8 +14,10 @@ app.use(BodyParser.urlencoded({
 
 import route_webhook = require('./routes/webhook');
 import route_wsNotify = require('./routes/wsNotify');
+import route_default = require('./routes/default');
 
 route_webhook.configure(appWs);
 route_wsNotify.configure(appWs);
+route_default.configure(app);
 
 app.listen(process.env.PORT || 80);

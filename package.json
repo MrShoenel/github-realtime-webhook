@@ -1,6 +1,6 @@
 {
   "name": "github-realtime-webhook",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This application is used as webhook-callback from Github on the one side and as WebSocket-realtime resource on the other side.",
   "main": "index.js",
   "scripts": {
